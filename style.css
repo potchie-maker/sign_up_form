@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  width: 30%;
+  background: url(media/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.right-side {
+  background-color: red;
+}
