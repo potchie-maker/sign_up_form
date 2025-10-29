@@ -16,10 +16,6 @@
   margin: 0;
 }
 
-body {
-  line-height: 1.5;
-}
-
 .container {
   display: flex;
   height: 100vh;
@@ -31,6 +27,7 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+  flex-shrink: 0;
 }
 
 .logo-title {
@@ -50,6 +47,7 @@ body {
 }
 
 .odin-title {
+  line-height: 1;
   padding-top: 20px;
 }
 
@@ -67,5 +65,18 @@ body {
 
 .right-side {
   flex-grow: 1;
-  background-color: red;
+  background-color: aliceblue;
+}
+
+.header {
+  width: 100%;
+  padding-top: 150px;
+  padding-left: 40px;
+  padding-right: 250px;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.header p:nth-child(3) {
+  margin-top: 30px;
 }
