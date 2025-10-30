@@ -47,7 +47,6 @@
 }
 
 .odin-title {
-  line-height: 1;
   padding-top: 20px;
 }
 
@@ -128,6 +127,26 @@ input {
   border: solid #E5E7EB;
   border-radius: 3px;
   padding: 5px 10px;
+}
+
+button[type="submit"] {
+  color: white;
+  background-color: #596D48;
+  margin: 25px 0 25px 40px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgray;
+}
+
+.known-user {
+  margin-left: 40px;
+}
+
+.known-user a {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 input:focus {
