@@ -1,8 +1,8 @@
 @font-face {
   font-family: norse-bold;
   src: 
-    url(fonts/transfonter.org-20251027-063140/Norse-Bold.woff2),
-    url(fonts/transfonter.org-20251027-063140/Norse-Bold.woff);
+    url(fonts/transfonter.org-20251030-041930/Norse-Bold.woff2),
+    url(fonts/transfonter.org-20251030-041930/Norse-Bold.woff);
   font-weight: normal;
   font-style: normal;
   font-display: wrap;
@@ -44,10 +44,6 @@
 
 .odin-logo {
   width: 5rem;
-}
-
-.odin-title {
-  padding-top: 20px;
 }
 
 .credit {
